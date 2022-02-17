@@ -1,0 +1,473 @@
+@media all{
+    
+    body{
+        margin:0;
+    }
+    
+    .container{
+        margin-top: 5%;
+    }
+    .img1 {
+        display: block;
+        width: 100%; 
+        height: auto;
+        padding: 0px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        'img'
+        'h1';      
+    }
+    
+    
+    #item1{
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        
+    }
+    #item2{
+        display: block;
+        color: white;
+        font-size: 3.75rem;
+        font-weight: 500;
+        background-color: black; 
+        font-family: 'Fira Sans', sans-serif;
+        text-align: center;
+        padding: 0.5rem;
+        
+    }
+    
+    .text-container{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .body-text{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 450;
+        font-size: 18px;
+    }
+    
+    h2{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight:700;
+        font-size: 24px;
+    }
+    
+    h3{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .flex-container{
+        width:250px;
+        display: block;
+        float: right;
+        background-color: rgb(50, 50, 50);
+        border: 2px solid white;
+        margin: 2% 2% 2% 2%;
+        outline: 1px solid black;
+    }
+    
+    #quote1{
+        
+        font-family: 'Slabo 27px', serif;
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+        padding: 10% 12% 0% 10%;
+        text-align: left;
+        
+        
+    }
+    
+    #quote2{
+        
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 500;
+        padding: 10% 10% 10% 20%;
+        text-align: left;
+        
+    }
+    
+    footer{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 450;
+        font-size: 18px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .footer-link{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 450;
+        font-size: 18px;
+        font-style: italic;
+        text-decoration: none;
+    }
+    
+    .table-container{
+        width: 300px;
+        
+        float: right;
+        margin: 0% 2% 2% 2%;
+    }
+    
+    td{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 450;
+        font-size: 18px;
+        padding: 5px;
+    }
+    table{
+        border-collapse: collapse;
+        width: 95%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        
+    }
+    th{
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        background-color:rgb(50, 50, 50);
+        font-weight: 700;
+        font-size: 18px;
+        padding: 5px;
+        border-color: rgb(50, 50, 50);
+        text-align: center;
+        
+    }
+    
+}
+
+/* 500 px size responsive design */
+@media all and (max-width:500px)
+{
+    body{
+        margin:0;
+    }
+    
+    
+    .img1 {
+        display: block;
+        width: 100%; 
+        height: auto;
+        padding: 0px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        'img'
+        'h1';      
+    }
+    
+    
+    #item1{
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        
+    }
+    #item2{
+        display: block;
+        color: white;
+        font-size: 2rem;
+        font-weight: 500;
+        background-color: black; 
+        font-family: 'Fira Sans', sans-serif;
+        text-align: center;
+        padding: 0.5rem;
+        
+    }
+    
+    .text-container{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .body-text{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-size: 12px;
+    }
+    
+    h2{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    h3{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 700;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .flex-container{
+        width:200px;
+        display: block;
+        float: right;
+        background-color: rgb(50, 50, 50);
+        border: 2px solid white;
+        margin: 8% 2% 2% 2%;
+        outline: 1px solid black;
+    }
+    
+    #quote1{
+        
+        font-family: 'Slabo 27px', serif;
+        font-size: 15px;
+        color: white;
+        font-weight: 600;
+        padding: 10% 12% 0% 10%;
+        text-align: left;
+        
+        
+    }
+    
+    #quote2{
+        
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        font-size: 12px;
+        font-style: italic;
+        font-weight: 500;
+        padding: 10% 10% 10% 20%;
+        text-align: left;
+        
+    }
+    
+    footer{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-size: 12px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .footer-link{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-size: 12px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-style: italic;
+        text-decoration: none;
+    }
+    
+    .table-container{
+        width: 200px;
+        display: block;
+        float: right;
+        margin: 8% 2% 2% 2%;
+        
+    }
+    
+    td{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 450;
+        font-size: 12px;
+        padding: 5px;
+    }
+    table{
+        border-collapse: collapse;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    th{
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        background-color:rgb(50, 50, 50);
+        font-weight: 700;
+        font-size: 12px;
+        padding: 5px;
+        border-color: rgb(50, 50, 50);
+        text-align: center;
+        
+    }
+}
+
+/* 350 px size responsive design */
+@media all and (max-width:350px)
+{
+    body{
+        margin:0;
+    }
+    
+    
+    .img1 {
+        display: block;
+        width: 100%; 
+        height: auto;
+        padding: 0px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+        'img'
+        'h1';      
+    }
+    
+    
+    #item1{
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        
+    }
+    #item2{
+        display: block;
+        color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: black; 
+        font-family: 'Fira Sans', sans-serif;
+        text-align: center;
+        padding: 0.5rem;
+        
+    }
+    
+    .text-container{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .body-text{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-size: 8px;
+    }
+    
+    h2{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 700;
+        font-size: 8px;
+    }
+    
+    h3{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 700;
+        font-size: 8px;
+        text-align: center;
+    }
+    
+    .flex-container{
+        width:100px;
+        display: block;
+        float: right;
+        background-color: rgb(50, 50, 50);
+        border: 2px solid white;
+        margin: 8% 2% 2% 2%;
+        outline: 1px solid black;
+    }
+    
+    #quote1{
+        
+        font-family: 'Slabo 27px', serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: white;
+        padding: 10% 12% 0% 10%;
+        text-align: left;
+        
+        
+    }
+    
+    #quote2{
+        
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        font-size: 8px;
+        font-style: italic;
+        font-weight: 400;
+        padding: 10% 10% 10% 20%;
+        text-align: left;
+        
+    }
+    
+    footer{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-size: 8px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .footer-link{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-size: 8px;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-style: italic;
+        text-decoration: none;
+    }
+    
+    .table-container{
+        width: 120px;
+        display: block;
+        float: right;
+        margin: 2% 5% 2% 2%;
+        
+    }
+    
+    td{
+        font-family: 'Fira Sans', sans-serif;
+        color: black;
+        font-weight: 450;
+        font-size: 8px;
+        padding: 5px;
+    }
+    table{
+        border-collapse: collapse;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    th{
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        background-color:rgb(50, 50, 50);
+        font-weight: 600;
+        font-size: 8px;
+        padding: 5px;
+        border-color: rgb(50, 50, 50);
+        text-align: center;
+        
+    }
+    
+}
