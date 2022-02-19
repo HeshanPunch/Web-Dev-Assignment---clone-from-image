@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Western Valley Farms</title>
+    
+    <link rel="stylesheet" type= "text/css" href="WVFstyles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Lobster&family=Slabo+27px&display=swap" rel="stylesheet">
+    
+    <script src="westernvalue.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="Images/WesternValley.png" alt="WVF Logo">
+        <h1> Western Valley Farms</h1>
+        
+        
+    </div>
+    
+    <div class="bg">
+        
+        
+        <div class="body-container">
+            <h3>Order Form</h3>
+            <form> 
+                
+                <!-- customer details -->
+                <label class="formTxt" for="date">Current Date</label>
+                <div><input type="date" id ="date" name = "date" class="input">
+                    
+                </div>
+                <label class="formTxt" for="name">Client Name</label>
+                <div>  <input name="name" class="input" type="text" id="name" maxlength="25" pattern="[A-Za-z- ]{1,30}"  title="Accepts alphabetical characters and hyphens" placeholder="John Doe" autofocus required></div>
+                
+                <label class="formTxt" for="addr">Street Address</label> 
+                <div><input name="addr" class="add" type="text" id="addr" placeholder="123 Main St. NE, Calgary, AB" required></div>
+                
+                <label class="formTxt" for="postal">Postal Code</label> 
+                <div><input name="postal" class="input" type="text" id="postal" pattern="^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1} *\d{1}[A-Z]{1}\d{1}$" placeholder="L9L9L9" ></div>
+                
+                <label class="formTxt" for="tel">Telephone Number</label><br>
+                <input type="radio" id="personal" name="numberRadio" value="Personal" checked>
+                <label  class="input-radio" for="personal">Personal</label>
+                
+                <input type="radio" id="business" name="numberRadio" value="Business" >
+                <label  class="input-radio" for="business">Business</label>                
+                <div><input name="tel" class="input" type="tel" id="tel"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{}" placeholder="123-123-1234" required> </div>
+                
+                <label class="formTxt" for="email">E-mail</label> <br>
+                <div><input name="email" class="input" type="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Valid email address" required></div>
+                
+                <label class="formTxt" for="pickup">Fulfillment Method</label><br>
+                
+                <input type="radio" id="pickup" name="pickupDeliver" value="Pickup" checked>
+                <label  class="input-radio" for="pickup">Pickup</label>
+                
+                <input type="radio" id="delivery" name="pickupDeliver" value="Delivery">
+                <label  class="input-radio" for="delivery">Delivery</label><br><br>
+                <hr>
+                
+                
+                <!-- order details -->
+                <h4>Order Details</h4>
+                
+                <div><label class="orderTxt" for="vh">Vegetable Hamper
+                    (20kg: $30.00)</label>
+                    <input class="input-num" type="number" id="vh" name="vh"  min="0" placeholder="0"><br>
+                </div>
+                
+                
+                <div><label class="orderTxt" for="fh">Fruit Hamper (10kg: $20.00)</label>
+                    <input class="input-num" type="number" id="fh" name="fh" min="0" placeholder="0"><br>
+                </div>
+                
+                
+                <div><label class="orderTxt" for="fc">Fresh Chickens
+                    ($7.00 per Chicken)</label>
+                    <input class="input-num" type="number" id="fc" name="fc"  min="0" placeholder="0"><br>
+                </div>
+                
+                
+                <div><label class="orderTxt" for="pork">Pork
+                    ($5/kg)</label>
+                    <input class="input-num" type="number" id="pork" name="pork"  min="0" placeholder="0kg"><br>
+                </div>
+                
+                <!-- output -->
+                <p id="printcustomerinfo" class="orderTxt"></p>
+                <p id="printorderinfo" class="orderTxt"></p>
+                <p id="printordersum" class="orderTxt"></p>
+                
+                <!-- buttons -->
+                <br><input type="button" class="input"  value="Submit Order" onclick="printOrder1()">
+                
+                <input type="reset" class="input"  value="Cancel"><br>
+                
+                
+                
+            </form>
+            
+            
+            
+        </div>
+    </div> 
+</body>
+
+</html>

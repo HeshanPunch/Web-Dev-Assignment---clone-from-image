@@ -1,0 +1,132 @@
+/* font-family: 'Fira Sans', sans-serif; */
+
+/* font-family: 'Cinzel', serif;
+font-family: 'Play', sans-serif; */
+body{
+    background-image: url(./Images/farm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+    color: white;
+    
+}
+.bg{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(183, 65, 14, 0.75);
+    border-radius: 25px;
+    
+    
+}
+
+.formTxt{
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    margin-left:2%;
+    
+}
+.orderTxt{
+    font-size: 14px;
+    font-family: 'Play', sans-serif;
+    margin-left:2%;
+    
+}
+
+.input{
+    margin-left:2%;
+    margin-bottom: 25px;
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+.input-num{
+    
+    margin-bottom: 25px;
+    height: 0.7rem;
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    padding: 5px 5px;
+    width: 2.5rem;
+}
+
+.input-radio{
+    
+    font-size: 15px;
+    font-family: 'Play', sans-serif;
+    margin-left:-8px;
+    padding:0;
+    
+} 
+.expand{
+    letter-spacing: 5px;
+    color: whitesmoke;
+    text-align: center;
+    
+}
+
+.add{
+    margin-left:2%;
+    margin-bottom: 25px;
+    width: 70%;
+    border: 3px solid rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+
+.header > h1{
+    position: relative;
+    display: flex;
+    letter-spacing: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    font-family: 'Lobster', cursive;
+    font-size: 80px;
+    
+    
+    
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-family: 'Play', sans-serif;
+    margin-left:2%;
+    text-align: left;
+}
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-family: 'Play', sans-serif;
+    margin-left:2%;
+    text-align: left;
+}
+
+.body-container{
+    padding: 5%;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    position: relative;
+    float: left;
+    width: 20%;
+    border-radius: 150px;
+    padding: 20px;
+    
+    
+    margin-top: 2.5%;
+}
+.header{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
